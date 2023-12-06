@@ -1,0 +1,366 @@
+
+a:link{
+  color: black !important;
+  text-decoration: none;
+}
+.feature__subtitle {
+    color: #df2020;
+  }
+  
+  .feature__title span {
+    color: #df2020;
+  }
+  
+  .feature__text {
+    color: #777;
+  }
+  
+  .feature__item p {
+    color: #777;
+  }
+  
+  .food__category {
+    background: #df2020;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0px;
+    border-radius: 8px;
+  }
+  
+  .food__category button {
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background: transparent;
+    color: #fff;
+  }
+  
+  .food__category button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .foodBtnActive {
+    background: #fff !important;
+    border-radius: 5px;
+    color: #df2020 !important;
+  }
+  
+  .tasty__treat-title span {
+    color: #df2020;
+  }
+  
+  .tasty__treat-desc {
+    color: #777;
+    line-height: 28px;
+  }
+  
+  .choose__us-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .choose__us-title i {
+    font-weight: 500 !important;
+    color: #df2020;
+  }
+  
+  .choose__us-desc {
+    color: #777;
+  }
+  
+  .testimonial__subtitle {
+    color: #df2020;
+  }
+  
+  .testimonial__title span {
+    color: #df2020;
+  }
+  
+  .testimonial__desc {
+    color: #777;
+    line-height: 30px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .hero__content h5 {
+      font-size: 1rem;
+    }
+  
+    .hero__content p {
+      font-size: 0.8rem;
+      line-height: 25px;
+    }
+  
+    .hero__title {
+      font-size: 1.5rem;
+      line-height: 40px;
+    }
+  
+    .hero__btns button {
+      padding: 5px 15px;
+      font-size: 0.7rem;
+    }
+  
+    .hero__service p {
+      font-size: 0.7rem !important;
+    }
+  
+    .feature__item h5 {
+      font-size: 0.9rem;
+    }
+  
+    .feature__item p {
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+  
+    .feature__subtitle {
+      font-size: 1rem;
+    }
+    .feature__text {
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+  
+    .food__category {
+      padding: 15px;
+    }
+    .food__category button {
+      padding: 5px 15px;
+      font-size: 0.7rem;
+    }
+  
+    .tasty__treat-desc {
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+    .choose__us-title {
+      font-size: 0.8rem;
+    }
+  
+    .choose__us-desc {
+      font-size: 0.7rem;
+    }
+  
+    .testimonial__subtitle {
+      font-size: 1rem;
+    }
+    .testimonial__desc {
+      font-size: 0.8rem;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .hero__content {
+      text-align: center;
+    }
+  
+    .hero__btns {
+      justify-content: center;
+    }
+  
+    .hero__service {
+      justify-content: center;
+    }
+    .why__choose-us {
+      padding-top: 0 !important;
+    }
+  }
+  .hero__content {
+    padding-top: 70px;
+  }
+  
+  .hero__title {
+    font-size: 2.5rem;
+    line-height: 55px;
+  }
+  
+  .hero__title span {
+    color: #df2020;
+  }
+  
+  .hero__content p {
+    font-size: 1rem;
+    line-height: 30px;
+    color: #777;
+  }
+  
+  .hero__btns button {
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .order__btn {
+    background: #df2020;
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  .order__btn:hover {
+    background: #212245;
+  }
+  .all__foods-btn {
+    background: transparent;
+    border: 1px solid #df2020 !important;
+  }
+  
+  .all__foods-btn a {
+    color: #df2020;
+  }
+  
+  .hero__service p {
+    color: #212245;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  .shipping__icon i {
+    padding: 5px;
+    background: #df2020;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 500 !important;
+  }
+  
+
+
+
+
+
+
+
+  .footer {
+    padding-top: 15% !important;
+    padding-bottom: 15%;
+    padding-left: 20%;
+    background: #fde4e4;
+  }
+  
+  .footer__logo img {
+    width: calc(100% - 80%);
+    margin-bottom: 5px;
+  }
+  
+  .footer__logo h5 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .footer__logo p {
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 28px;
+  }
+  
+  .delivery__time-item {
+    background: transparent !important;
+  }
+  
+  .delivery__time-item span {
+    font-weight: 600 !important;
+    font-size: 1.5rem !important;
+    color: #212245 !important;
+  }
+  
+  .delivery__time-item p {
+    color: #212245 !important;
+  }
+  .footer__title {
+    font-size: 1.8rem;
+    color: #212245;
+    font-weight: 600;
+  }
+  
+  .newsletter {
+    padding: 5px;
+    border: 1px solid #212245;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  .newsletter input {
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  .newsletter input:focus {
+    outline: none;
+  }
+  
+  .newsletter span {
+    background: #df2020 !important ;
+    padding: 5px 30px;
+    border-radius: 5px;
+  }
+  
+  .newsletter span i {
+    color: #fff;
+  }
+  
+  .newsletter input::placeholder {
+    color: #212245;
+  }
+  
+  .social__links span i {
+    padding: 5px;
+    background: #df2020;
+    color: #fff;
+    border-radius: 50%;
+  }
+  
+  .copyright__text {
+    font-size: 0.8rem;
+    color: #df2020 !important;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .newsletter input {
+      padding: 7px;
+      font-size: 0.7rem;
+    }
+    .newsletter span {
+      padding: 4px 20px;
+      font-size: 0.7rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .footer__title {
+      font-size: 0.8rem;
+    }
+  
+    .delivery__time-item span {
+      font-size: 0.8rem;
+    }
+  
+    .delivery__time-item p {
+      font-size: 0.7rem;
+      margin-bottom: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .copyright__text {
+      text-align: center;
+    }
+  
+    .social__links p {
+      font-size: 0.8rem;
+    }
+  
+    .social__links span {
+      padding: 4px;
+    }
+    .social__links span a {
+      font-size: 0.7rem;
+    }
+  }
+  
